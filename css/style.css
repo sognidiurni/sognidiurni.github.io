@@ -444,20 +444,6 @@ body.lb-open { overflow: hidden; }
 /* -------------------------------------------------------------
    07. POESIE BILINGUI
    ------------------------------------------------------------- */
-/* Avviso temporaneo: segnala che alcune traduzioni sono ancora
-   una prima stesura. Da rimuovere insieme al blocco HTML quando
-   la revisione dell'autore è completa. */
-.draft-note {
-  display: block;
-  margin-top: 1.5rem;
-  padding: 0.9rem 1.1rem;
-  border-left: 2px solid var(--spine);
-  background: var(--paper-warm);
-  font-size: var(--t-sm);
-  color: var(--ink-2);
-}
-.draft-note strong { color: var(--ink); }
-
 .poem {
   padding-block: var(--band);
   border-top: 1px solid var(--line);

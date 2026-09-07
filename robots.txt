@@ -2,8 +2,7 @@
 # Tutte le pagine sono aperte alla scansione: il progetto esiste
 # proprio per essere trovato.
 
-# FASE DI REVISIONE: sostituire con "Allow: /" alla pubblicazione definitiva.
 User-agent: *
-Disallow: /
+Allow: /
 
 Sitemap: https://sognidiurni.github.io/sitemap.xml
