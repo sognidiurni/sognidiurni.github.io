@@ -6,4 +6,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://youtrustshop-dot.github.io/sogni-diurni/sitemap.xml
+Sitemap: https://sognidiurni.github.io/sitemap.xml

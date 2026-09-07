@@ -9,37 +9,37 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://youtrustshop-dot.github.io/sogni-diurni/index.html</loc>
+    <loc>https://sognidiurni.github.io/index.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="it" href="https://youtrustshop-dot.github.io/sogni-diurni/index.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://youtrustshop-dot.github.io/sogni-diurni/index.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sognidiurni.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://sognidiurni.github.io/index.html"/>
   </url>
 
   <url>
-    <loc>https://youtrustshop-dot.github.io/sogni-diurni/opere.html</loc>
+    <loc>https://sognidiurni.github.io/opere.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://youtrustshop-dot.github.io/sogni-diurni/poesie.html</loc>
+    <loc>https://sognidiurni.github.io/poesie.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://youtrustshop-dot.github.io/sogni-diurni/progetto.html</loc>
+    <loc>https://sognidiurni.github.io/progetto.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://youtrustshop-dot.github.io/sogni-diurni/contatti.html</loc>
+    <loc>https://sognidiurni.github.io/contatti.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
