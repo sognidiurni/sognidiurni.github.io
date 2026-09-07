@@ -1,0 +1,7 @@
+# Il repository è pubblico (GitHub Pages sul piano gratuito lo richiede),
+# quindi resta fuori tutto ciò che non è il sito: il documento d'esame
+# e gli appunti di lavorazione.
+docs/
+LEGGIMI.md
+DOMANDE-PER-AUTORE.md
+ISTRUZIONI-PER-CHEN.md

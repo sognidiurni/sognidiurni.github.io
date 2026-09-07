@@ -1,0 +1,9 @@
+# Sotto lo sguardo dei sogni diurni · 白日梦镜头下
+# Tutte le pagine sono aperte alla scansione: il progetto esiste
+# proprio per essere trovato.
+
+# FASE DI REVISIONE: sostituire con "Allow: /" alla pubblicazione definitiva.
+User-agent: *
+Disallow: /
+
+Sitemap: https://youtrustshop-dot.github.io/sogni-diurni/sitemap.xml

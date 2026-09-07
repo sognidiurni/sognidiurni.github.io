@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="it" data-lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FASE DI REVISIONE: impedisce ai motori di ricerca di indicizzare il sito.
+     DA RIMUOVERE alla pubblicazione definitiva, insieme al Disallow in robots.txt. -->
+<meta name="robots" content="noindex, nofollow">
+
+<title>Il progetto: acquaforte, traduzione e costruzione del sito | Sotto lo sguardo dei sogni diurni</title>
+<meta name="description" content="Il concept del progetto: che cos'è l'acquaforte e l'acquatinta, perché tradurre le poesie, come è stato costruito il sito e quali scelte di accessibilità e di posizionamento sui motori di ricerca sono state adottate.">
+<meta name="keywords" content="acquaforte, acquatinta, calcografia, tecnica incisoria, libro d'artista, progettazione web, accessibilità web, SEO, Informatica per le Arti">
+<link rel="canonical" href="https://youtrustshop-dot.github.io/sogni-diurni/progetto.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Il progetto · Sotto lo sguardo dei sogni diurni">
+<meta property="og:description" content="Acquaforte, traduzione, costruzione del sito: il pensiero dietro l'edizione digitale.">
+<meta property="og:image" content="https://youtrustshop-dot.github.io/sogni-diurni/assets/opere/opera-07.jpg">
+<meta property="og:url" content="https://youtrustshop-dot.github.io/sogni-diurni/progetto.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "Il progetto",
+  "url": "https://youtrustshop-dot.github.io/sogni-diurni/progetto.html",
+  "isPartOf": { "@id": "https://youtrustshop-dot.github.io/sogni-diurni/#sito" },
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Chen Xinze",
+    "jobTitle": "Poeta, traduttore e curatore dell'edizione web",
+    "knowsAbout": ["Poesia contemporanea", "Traduzione dal cinese", "Libro d'artista"]
+  },
+  "about": {
+    "@type": "Person",
+    "name": "Lin Junnan",
+    "jobTitle": "Incisore",
+    "knowsAbout": ["Acquaforte", "Acquatinta", "Libro d'artista"]
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/og-cover.jpg" type="image/jpeg">
+</head>
+
+<body>
+<a class="skip" href="#main">Salta al contenuto</a>
+
+<header class="site-head">
+  <div class="site-head__in">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span>
+        <span class="brand__zh">白日梦镜头下</span>
+        <span class="brand__it">Sotto lo sguardo dei sogni diurni</span>
+      </span>
+    </a>
+    <nav class="nav" data-nav aria-label="Navigazione principale">
+      <a href="opere.html"><span class="i18n" lang="it">Opere</span><span class="i18n" lang="zh">作品</span></a>
+      <a href="poesie.html"><span class="i18n" lang="it">Poesie</span><span class="i18n" lang="zh">诗</span></a>
+      <a href="progetto.html" aria-current="page"><span class="i18n" lang="it">Il progetto</span><span class="i18n" lang="zh">关于</span></a>
+      <a href="contatti.html"><span class="i18n" lang="it">Contatti</span><span class="i18n" lang="zh">联系</span></a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Lingua del sito">
+      <button type="button" data-lang-btn="it" aria-pressed="true">IT</button>
+      <button type="button" data-lang-btn="zh" aria-pressed="false">中文</button>
+    </div>
+    <button class="burger" data-burger type="button" aria-expanded="false" aria-label="Apri il menu">Menu</button>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+  <section class="page-head">
+    <p class="han">方法 · 关于这个项目</p>
+    <h1><span class="i18n" lang="it">Il metodo</span><span class="i18n" lang="zh">方法</span></h1>
+    <p class="lede">
+      <span class="i18n" lang="it">Che cosa succede quando le incisioni di una persona e le poesie di un'altra, in una lingua che quasi nessuno legge intorno a te, provano a diventare un luogo pubblico.</span>
+      <span class="i18n" lang="zh">当一个人的版画与另一个人的诗，用身边几乎无人阅读的语言，试图成为一个公共场所时，会发生什么。</span>
+    </p>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ---------- 1. L'opera ---------- -->
+  <section class="split">
+    <aside class="split__aside">
+      <h2><span class="i18n" lang="it">01 · L&rsquo;opera</span><span class="i18n" lang="zh">01 · 作品</span></h2>
+      <ul class="facts">
+        <li><b>Incisioni</b><span>Lin Junnan</span></li>
+        <li><b>Poesie</b><span>Chen Xinze</span></li>
+        <li><b>Titolo</b><span>白日梦镜头下</span></li>
+        <li><b>Tecnica</b><span><span class="i18n" lang="it">Acquaforte, acquatinta</span><span class="i18n" lang="zh">蚀刻、飞尘</span></span></li>
+        <li><b>Lastre</b><span>48</span></li>
+        <li><b>Formato</b><span><span class="i18n" lang="it">Quadrato</span><span class="i18n" lang="zh">正方形</span></span></li>
+        <li><b>Testi</b><span><span class="i18n" lang="it">4 poesie</span><span class="i18n" lang="zh">四首诗</span></span></li>
+      </ul>
+    </aside>
+
+    <div class="prose">
+      <div class="i18n" lang="it">
+        <p class="first">Il titolo cinese, <span lang="zh">白日梦镜头下</span>, si traduce alla lettera «sotto la lente del sogno a occhi aperti». <span lang="zh">镜头</span> è l'obiettivo della macchina fotografica, e nel libro il sogno diurno sta davanti alla realtà mentre la si guarda. Questo spiega perché le quarantotto lastre restino sempre a metà strada. C'è una cucina, un ascensore, un bagno piastrellato, una fermata dell'autobus, e dentro quelle stanze normali succede qualcosa che non dovrebbe.</p>
+
+        <p>Le figure hanno la mano incerta di un disegno infantile, mentre la lavorazione è quella lenta della calcografia. L'attrito fra queste due cose è il vero soggetto del libro: un segno che sembra buttato giù in dieci secondi ha richiesto ore di morsura.</p>
+
+        <blockquote class="pull">Nelle lastre può succedere qualsiasi cosa, e nessuna delle cose che succedono viene spiegata.</blockquote>
+
+        <h3>Acquaforte e acquatinta, in breve</h3>
+        <p>La lastra di rame viene coperta di vernice, e l'artista incide la vernice con una punta fino a scoprire il metallo. Immersa nell'acido, la lastra si lascia mangiare solo dove il segno l'ha scoperta, e da qui nasce il <strong>tratto</strong> dell'acquaforte. Per le <strong>campiture</strong>, cioè i cieli sporchi e i fondi consumati, si usa invece l'acquatinta: una polvere di resina fissata col calore rende la superficie porosa, così l'acido scava toni al posto delle linee. Quasi tutte le lastre di questo libro vengono dall'incontro fra le due tecniche.</p>
+      </div>
+
+      <div class="i18n" lang="zh">
+        <p>中文书名《白日梦镜头下》直译就是"在白日梦的镜头之下"。"镜头"是照相机的镜头：看现实的时候，白日梦架在前面。这解释了为什么这四十八块铜版始终停在半路上。画面里有厨房、电梯、贴瓷砖的卫生间、公交站台，而在这些普通的房间里，总有一件不该发生的事发生了。</p>
+        <p>形象带着孩童般笨拙的手，工艺却是铜版画那种缓慢的工艺。两者之间的摩擦，才是这本书真正的主题：看似十秒钟画完的线条，实际上需要数小时的腐蚀。</p>
+        <blockquote class="pull">在这些铜版上什么都可能发生，而发生的事没有一件被解释。</blockquote>
+        <h3>关于蚀刻与飞尘</h3>
+        <p>铜版先涂一层防腐蚀的蜡，艺术家用针刻穿蜡层，露出金属。浸入酸中，只有被刻开的地方被腐蚀，蚀刻的<strong>线条</strong>由此而来。至于<strong>色块</strong>，比如脏掉的天空和磨损的底色，则要用飞尘：松香粉加热固定后使表面变得多孔，酸挖出的就是色调，不再是线条。这本书里几乎每一块版都来自两种技法的相遇。</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ---------- 2. La traduzione ---------- -->
+  <section class="split">
+    <aside class="split__aside">
+      <h2><span class="i18n" lang="it">02 · La traduzione</span><span class="i18n" lang="zh">02 · 翻译</span></h2>
+      <figure style="margin:0">
+        <img src="assets/opere/opera-45.jpg" width="420" height="420" loading="lazy" decoding="async"
+             style="border:1px solid var(--line)"
+             alt="Incisione: tre profili umani sovrapposti in trasparenza su un paesaggio di dune rosse.">
+        <figcaption style="font-size:var(--t-xs);margin-top:0.6rem">XLV · Tre profili nel deserto · 沙漠中的三张侧脸</figcaption>
+      </figure>
+    </aside>
+
+    <div class="prose">
+      <div class="i18n" lang="it">
+        <p>Un libro d'artista cinese stampato in pochissimi esemplari circola in un cerchio molto stretto, e lo stesso vale per delle poesie che non sono mai uscite da un'applicazione di note. Se si pubblica online soltanto in cinese, quel cerchio si allarga di poco; se si pubblica soltanto in italiano, in rete finisce l'ombra dei testi al posto dei testi. Da qui la decisione di tenere le due lingue insieme per tutto il sito.</p>
+        <p>Nelle pagine di servizio un commutatore fa scegliere quale versione leggere. Nelle poesie, dove il testo <em>è</em> l'opera, le due colonne restano affiancate qualunque cosa si scelga, con lo stesso corpo e la stessa larghezza, così che chi legge il cinese possa vedere subito dove la traduzione ha stretto.</p>
+        <h3>Perché le lastre non hanno un titolo</h3>
+        <p>Le incisioni sono senza titolo, e per l'edizione online non ne sono stati inventati. Le righe che compaiono sotto ogni immagine nella galleria sono descrizioni, la pagina lo dichiara apertamente, e sono le stesse parole che un lettore di schermo legge ad alta voce. Una riga sola fa quindi due lavori: aiuta a ritrovare un'opera e la rende accessibile a chi non la vede.</p>
+      </div>
+
+      <div class="i18n" lang="zh">
+        <p>一本仅印数册的中文艺术家手工书，流通的圈子非常小；从未离开过备忘录的诗，情况也一样。若只以中文放上网，这个圈子扩大有限；若只以意大利文放上网，进入网络的就是文本的影子。整个网站因此把两种语言放在一起。</p>
+        <p>在功能性页面上，切换器决定读哪一个版本。在诗歌页面上，文本本身<em>就是</em>作品，于是无论选择哪一种语言，两栏都并列显示，字号相同，栏宽相同，让读中文的人一眼就能看到译文在哪里收窄了。</p>
+        <h3>为什么这些版画没有标题</h3>
+        <p>这些版画本无标题，网页版也没有为它们杜撰标题。画廊中每张图下方的文字是描述，页面对此有明确说明，而这些字句正是读屏软件朗读的内容。一行字因此做了两件事：帮人重新找到一幅作品，也让看不见的人能够理解它。</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ---------- 3. Il sito ---------- -->
+  <section class="split">
+    <aside class="split__aside">
+      <h2><span class="i18n" lang="it">03 · Il sito</span><span class="i18n" lang="zh">03 · 网站</span></h2>
+      <ul class="facts">
+        <li><b>Struttura</b><span>5 <span class="i18n" lang="it">pagine</span><span class="i18n" lang="zh">页面</span></span></li>
+        <li><b>Linguaggi</b><span>HTML, CSS, JS</span></li>
+        <li><b>Librerie</b><span><span class="i18n" lang="it">nessuna</span><span class="i18n" lang="zh">无</span></span></li>
+        <li><b>Lingue</b><span>中文 / IT</span></li>
+        <li><b>Peso</b><span>&lt; 2 MB</span></li>
+      </ul>
+    </aside>
+
+    <div class="prose">
+      <div class="i18n" lang="it">
+        <p>Il sito è scritto a mano in HTML, CSS e JavaScript, senza framework e senza librerie esterne. Con quarantotto immagini quadrate e quattro testi da mostrare, un'infrastruttura complicata sarebbe servita a poco. Quello che serviva era togliere rumore intorno alle incisioni, e ogni riquadro in più è rumore.</p>
+
+        <h3>Le scelte visive</h3>
+        <ul>
+          <li><strong>Museo bianco.</strong> Il fondo è una carta calda e i filetti sono sottilissimi. Nel sito non compare un solo colore saturo, perché tutto il colore deve arrivare dalle opere. È la regola più severa del progetto.</li>
+          <li><strong>La costa.</strong> Il filetto blu verticale sul bordo sinistro dello schermo cita l'unico elemento grafico della copertina stampata, cioè la costa del libro. Sta lì fisso, per ricordare che si sta sfogliando un volume.</li>
+          <li><strong>La griglia.</strong> Le lastre sono tutte quadrate, quindi la galleria usa una griglia regolare al posto di una composizione a mosaico. Un passepartout uguale per tutte lascia emergere le differenze di segno.</li>
+          <li><strong>Numerazione romana.</strong> Da I a XLVIII, come si numerano le cartelle di stampe d'arte.</li>
+        </ul>
+
+        <h3>Accessibilità</h3>
+        <ul>
+          <li>Struttura semantica (<code>header</code>, <code>nav</code>, <code>main</code>, <code>article</code>, <code>figure</code>, <code>figcaption</code>) e un solo <code>h1</code> per pagina.</li>
+          <li>Testo alternativo descrittivo su tutte e 48 le incisioni, scritto per essere <em>ascoltato</em> da un lettore di schermo.</li>
+          <li>Collegamento «salta al contenuto», contorni di messa a fuoco visibili, galleria interamente navigabile da tastiera (<kbd>Tab</kbd>, <kbd>←</kbd>, <kbd>→</kbd>, <kbd>Esc</kbd>).</li>
+          <li>Le animazioni si disattivano da sole se il sistema operativo dichiara <code>prefers-reduced-motion</code>.</li>
+          <li>Contrasto del testo conforme al livello AA delle linee guida WCAG.</li>
+        </ul>
+
+        <h3>Posizionamento sui motori di ricerca</h3>
+        <ul>
+          <li><code>title</code> e <code>meta description</code> unici e descrittivi su ciascuna pagina.</li>
+          <li>Dati strutturati <a href="https://schema.org" rel="noopener" target="_blank">schema.org</a> in JSON-LD: <code>WebSite</code>, <code>Book</code>, <code>Person</code>, <code>VisualArtwork</code>, <code>Poem</code>, <code>BreadcrumbList</code>.</li>
+          <li>Anteprime Open Graph per la condivisione sui social, <code>canonical</code> e <code>hreflang</code> per la doppia lingua.</li>
+          <li><code>sitemap.xml</code> e <code>robots.txt</code>; immagini con <code>width</code>, <code>height</code> e <code>loading="lazy"</code> per evitare gli spostamenti di layout che penalizzano i Core Web Vitals.</li>
+          <li>Entrambe le lingue sono presenti nel codice della pagina e non vengono caricate a richiesta. Il commutatore si limita a mostrarle o a nasconderle.</li>
+        </ul>
+      </div>
+
+      <div class="i18n" lang="zh">
+        <p>网站以纯手写的 HTML、CSS 与 JavaScript 构建，不使用框架，也不使用外部库。要展示的只有四十八幅方形图像和四段文本，复杂的基础设施帮不上什么忙。真正需要做的是把版画周围的噪音去掉，而每多一个方框就多一分噪音。</p>
+        <h3>视觉选择</h3>
+        <ul>
+          <li><strong>白色美术馆。</strong>底色是温暖的纸，线极细。网站本身没有一处饱和的颜色，因为所有色彩都应当来自作品。这是整个项目里最严格的一条规则。</li>
+          <li><strong>书脊。</strong>屏幕左缘那道垂直的蓝线，引自印刷封面上唯一的图形元素，也就是书的脊背。它固定在那里，提醒你正在翻一本书。</li>
+          <li><strong>网格。</strong>版画都是正方形，因此画廊用规整的网格，而不是瀑布流。统一的装裱让笔触之间的差别显出来。</li>
+          <li><strong>罗马数字。</strong>从 I 到 XLVIII，如同版画集的编号方式。</li>
+        </ul>
+        <h3>无障碍</h3>
+        <ul>
+          <li>语义化结构，每页仅一个 <code>h1</code>。</li>
+          <li>四十八幅版画全部配有描述性替代文本，为"被听见"而写。</li>
+          <li>"跳至内容"链接、清晰的聚焦轮廓、完全可用键盘操作的画廊。</li>
+          <li>当系统声明 <code>prefers-reduced-motion</code> 时动画自动关闭。</li>
+        </ul>
+        <h3>搜索引擎优化</h3>
+        <ul>
+          <li>每页独立的 <code>title</code> 与 <code>meta description</code>。</li>
+          <li>JSON-LD 结构化数据：<code>WebSite</code>、<code>Book</code>、<code>Person</code>、<code>VisualArtwork</code>、<code>Poem</code>。</li>
+          <li>Open Graph 预览、<code>canonical</code> 与 <code>hreflang</code>。</li>
+          <li><code>sitemap.xml</code> 与 <code>robots.txt</code>；图片声明尺寸并延迟加载。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ---------- Chiusura ---------- -->
+<section class="section section--warm">
+  <div class="wrap wrap--narrow" style="text-align:center" data-reveal>
+    <p class="eyebrow" style="justify-content:center"><span class="i18n" lang="it">Continua</span><span class="i18n" lang="zh">继续</span></p>
+    <h2 style="font-size:var(--t-xl);margin-bottom:1.6rem">
+      <span class="i18n" lang="it">Quarantotto sogni ti aspettano</span><span class="i18n" lang="zh">四十八个梦在等你</span>
+    </h2>
+    <p><a class="btn" href="opere.html"><span class="i18n" lang="it">Entra nella galleria</span><span class="i18n" lang="zh">进入作品</span></a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>白日梦镜头下</h3>
+        <p style="font-size:var(--t-sm);color:var(--ink-2);max-width:32ch">
+          <span class="i18n" lang="it">Le poesie di Chen Xinze accanto alle incisioni di Lin Junnan, in cinese e in italiano.</span>
+          <span class="i18n" lang="zh">Chen Xinze 的诗与 Lin Junnan 的版画并置，中文与意大利文对照。</span>
+        </p>
+      </div>
+      <div>
+        <h3><span class="i18n" lang="it">Sezioni</span><span class="i18n" lang="zh">栏目</span></h3>
+        <ul>
+          <li><a href="index.html">Home · 首页</a></li>
+          <li><a href="opere.html">Opere · 作品</a></li>
+          <li><a href="poesie.html">Poesie · 诗</a></li>
+          <li><a href="contatti.html">Contatti · 联系</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="i18n" lang="it">Segui</span><span class="i18n" lang="zh">关注</span></h3>
+        <ul>
+          <li><a href="https://www.instagram.com/" rel="me noopener" target="_blank">Instagram</a></li>
+          <li><a href="https://www.xiaohongshu.com/" rel="me noopener" target="_blank">小红书 · Xiaohongshu</a></li>
+        </ul>
+      </div>
+      <div>
+        <!-- CREDITI: le incisioni sono di Lin Junnan, le poesie e le traduzioni di Chen Xinze,
+             che cura anche l'edizione web. Da aggiungere quando disponibili:
+             i caratteri cinesi del nome e l'eventuale forma «Salvatore Chen». -->
+        <h3><span class="i18n" lang="it">Colophon</span><span class="i18n" lang="zh">版权</span></h3>
+        <p style="font-size:var(--t-sm);color:var(--ink-2)">
+          <span class="i18n" lang="it">Incisioni © Lin Junnan.<br>Poesie e traduzioni © Chen Xinze.<br>Edizione web a cura di Chen Xinze.</span>
+          <span class="i18n" lang="zh">版画 © Lin Junnan。<br>诗与意大利文译文 © Chen Xinze。<br>网页版编辑：Chen Xinze。</span>
+        </p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-anno>2026</span> · <span class="i18n" lang="it">Tutti i diritti riservati</span><span class="i18n" lang="zh">版权所有</span></span>
+      <span><span class="i18n" lang="it">Progetto d&rsquo;esame di Informatica per le Arti, Università di Bologna</span><span class="i18n" lang="zh">课程作业 · 博洛尼亚大学</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
